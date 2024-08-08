@@ -46,9 +46,6 @@ class LoggerFactoryPassTest extends TestCase
         $loggerFactoryPass->process($containerBuilderMock);
     }
 
-    /**
-     * @return \PHPUnit_Framework_MockObject_MockObject
-     */
     protected function getDefinitionMock()
     {
         $i = 0;
@@ -88,9 +85,6 @@ class LoggerFactoryPassTest extends TestCase
         return $definitionMock;
     }
 
-    /**
-     * @return \PHPUnit_Framework_MockObject_MockObject
-     */
     protected function getContainerBuilderMock()
     {
         $containerBuilderMock = $this->createMock('Symfony\Component\DependencyInjection\ContainerBuilder');
