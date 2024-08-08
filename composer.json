@@ -1,10 +1,8 @@
 {
-    "name": "xiidea/easy-audit",
+    "name": "sravni/easy-audit-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony Bundle To Log Selective Events. It is easy to configure and easy to customize for your need",
-    "keywords": ["Event Log", "Audit Log", "Symfony2", "Symfony3", "Symfony4", "Symfony5", "Symfony6", "Audit trail", "PSR-3"],
-    "license": "MIT",
-    "homepage": "http://xiidea.github.io/EasyAuditBundle/",
+    "keywords": ["Event Log", "Audit Log", "Symfony7","Audit trail", "PSR-3"],
     "authors": [
         {
             "name": "Roni Saha",
@@ -14,12 +12,11 @@
         {
             "name": "EasyAuditBundle Community",
             "homepage": "https://github.com/xiidea/EasyAuditBundle/contributors"
+        },
+        {
+            "name": "Sravni FB team"
         }
     ],
-    "support": {
-        "issues": "https://github.com/xiidea/EasyAuditBundle/issues",
-        "source": "https://github.com/xiidea/EasyAuditBundle"
-    },
     "require": {
         "php": ">=8.0.2",
         "psr/log": "^1|^2|^3",
@@ -43,10 +40,5 @@
     },
     "autoload-dev": {
       "psr-4": { "Xiidea\\EasyAuditBundle\\Tests\\": "Tests/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
