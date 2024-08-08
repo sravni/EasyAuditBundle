@@ -19,6 +19,7 @@ security:
         main:
             lazy: true
             http_basic: ~
+        switch_user: true
 
     access_control:
         - { path: ^/public/, role: PUBLIC_ACCESS }
