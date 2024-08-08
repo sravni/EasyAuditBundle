@@ -2,7 +2,10 @@
     "name": "sravni/easy-audit-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony Bundle To Log Selective Events. It is easy to configure and easy to customize for your need",
-    "keywords": ["Event Log", "Audit Log", "Symfony7","Audit trail", "PSR-3"],
+    "homepage": "https://github.com/sravni/easy-audit-bundle",
+    "keywords": ["sravni", "fb", "Event Log", "Audit Log", "Symfony7","Audit trail", "PSR-3"],
+    "minimum-stability": "stable",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Roni Saha",
@@ -14,12 +17,13 @@
             "homepage": "https://github.com/xiidea/EasyAuditBundle/contributors"
         },
         {
-            "name": "Sravni FB team"
+            "name": "Formbuilder Team",
+            "homepage": "https://github.com/orgs/sravni/teams/formbuilder"
         }
     ],
     "require": {
-        "php": ">=8.0.2",
-        "psr/log": "^1|^2|^3",
+        "php": "8.2.*",
+        "psr/log": "^2|^3",
         "symfony/framework-bundle": "~7.1.0",
         "symfony/security-bundle": "~7.1.0"
     },
