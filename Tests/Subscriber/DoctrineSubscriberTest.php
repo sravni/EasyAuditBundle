@@ -109,7 +109,7 @@ class DoctrineSubscriberTest extends TestCase
 
     private function initializeAnnotationReader($metaData = null)
     {
-        $this->annotationReader->expects($this->once())
+        $this->annotationReader->expects($this->never())
             ->method('getClassAnnotation')
             ->willReturn($metaData);
     }

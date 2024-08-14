@@ -122,13 +122,7 @@ class DoctrineSubscriber
      */
     protected function isAnnotatedEvent($entity, $eventType)
     {
-        $metaData = $this->hasAnnotation($entity);
-
-        if (!$metaData) {
-            return null;
-        }
-
-        return empty($metaData->events) || in_array($eventType, $metaData->events);
+        return null;
     }
 
     /**
